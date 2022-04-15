@@ -4,3 +4,5 @@ Contain tools:
 * httpie
 * bind-tools
 * mtr
+* openssl
+* ssl-test.sh (https://github.com/evalalave/openssl-cipher-list-scan)
