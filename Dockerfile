@@ -1,6 +1,6 @@
 FROM alpine
 WORKDIR /opt/utils/
-RUN apk --no-cache add curl httpie bind-tools mtr openssl nmap nmap-scripts
+RUN apk --no-cache add curl httpie bind-tools mtr openssl nmap nmap-scripts iputils
 ADD ssl-test.sh ./
 RUN chmod +x ssl-test.sh
 USER 1000
